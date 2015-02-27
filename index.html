@@ -1,0 +1,169 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vanaj Door</title>
+    
+    
+
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+
+<script src="vanaj.js"></script>
+<style>
+@font-face
+{
+font-family: Rupee;
+src: url(Rupee.ttf) ;
+}
+</style>
+
+</head> 
+<body> 
+<center>
+<div id="page" data-role="page">
+	<div data-role="header" data-theme="a" data-position="fixed">
+		<h1>Door Value Calculator</h1>
+	</div>
+
+	<div data-role="content" data-theme="e">
+        <table width="90%" style="font-size:16px;">
+            <tr> <td align="left"> <label style="font-size:16px; text-align:right; font-weight:bold;" for="doorThickness">Door Thickness:</label> </td> 
+    
+            <td colspan="2" align="left"> <input style="font-size:16px;" type="text" name="doorThickness" id="doorThickness" value="32"  tabindex="1" /> </td> </tr>
+            
+            <tr> <td align="left"> <label for="plywoodType" style="font-size:16px; text-align:right; font-weight:bold;" class="select">Plywood Type:</label> </td> 
+    
+             <td colspan="2"> <select name="plywoodType" id="plywoodType" tabindex="2">
+                         <option value="plain">Plain </option>
+                         <option value="teak">Teak</option>
+                         <option value="nuwood">Nuwood</option>
+                     </select>
+                </td> 
+    </tr>
+             <tr> 
+             <td>&nbsp;  </td>
+                <td colspan="2"> 
+                    <fieldset data-role="controlgroup" data-type="vertical" >
+                        <label for="paint" style="font-size:16px;" >Paint</label>
+                        <input style="font-size:16px;" type="checkbox" name="paint" id="paint" class="custom"  value=""  tabindex="3"  />
+                        <label for="teakoption" style="font-size:16px;" >One Side</label>
+                        <input style="font-size:16px;" type="checkbox" name="teakoption" id="teakoption" class="custom" value="" tabindex="4" />
+                  </fieldset>
+                </td>
+          </tr>
+          
+          <tr> <td align="right">  <label for="plythickness" style="font-size:16px; text-align:right; font-weight:bold;" class="select">Plywood Thickness:</label> </td> 
+              <td colspan="2"> <select name="plythickness" id="plythickness" tabindex="5" value="6mm" >
+                       <option value="4mm">4 mm</option>
+                       <option value="6mm">6 mm</option>
+                       <option value="8mm">8 mm</option>
+                       <option value="12mm">12 mm</option>
+                   </select>
+               </td> 
+           </tr>
+               
+            <tr> <td align="left"> <label for="baton" style="font-size:16px; text-align:right; font-weight:bold;" class="select">Baton</label> </td> 
+                <td colspan="2"> 
+                    <select style="font-size:16px;" name="baton" id="baton" tabindex="6">
+                      <option value="no">No</option>
+                     <option value="yes">Yes</option>
+                    </select>
+                </td> 
+            </tr> 
+            
+            <tr>
+            <td>&nbsp;  </td>
+                <td colspan="2">
+                    <fieldset data-role="controlgroup">
+                    <input style="font-size:16px;" type="checkbox" name="batonopt" id="batonopt" class="custom" value="" tabindex="7" />
+                    <label style="font-size:16px;"  for="batonopt">Baton provided by Customer</label>
+                  </fieldset>
+                </td> 
+            </tr>
+    
+            <tr> <td align="left"> <label for="mica" style="font-size:16px; text-align:right; font-weight:bold;" class="select">Mica:</label> </td> 
+                <td colspan="2"> <select style="font-size:16px;" name="mica" id="mica" tabindex="8">
+                      <option value="none">None</option>
+                      <option value="mpasting">Mica with pasting</option>
+                      <option value="pasting">Pasting only</option>
+                    </select>
+                    </td> </tr>
+                    
+            <tr>  <td align="left">  <label for="micaoption" style="font-size:16px; text-align:right; font-weight:bold;" class="select">Mica Options:</label> </td>  
+               <td colspan="2">       <select style="font-size:16px;" name="micaoption" id="micaoption" tabindex="9">
+                        <option value="oneside">One Side</option>
+                        <option value="bothside">Both Side</option>
+                      </select> </td> </tr>
+    
+                    <tr>   <td align="left">     <label for="doorsize" style="font-size:16px; text-align:right; font-weight:bold;" class="select">Door Size in:</label> </td>   
+                
+                <td colspan="2"> <select style="font-size:16px;" name="doorsize" id="doorsize" tabindex="10">
+                  <option value="mm">mm</option>
+                  <option value="inch">inch</option> 
+                </select> </td> </tr>
+                
+            <tr> 
+                <td align="left"> 
+                <label for="width" style="font-size:16px; text-align:right; font-weight:bold;" >
+                Width:
+                </label> 
+                </td>   
+            	<td align="right"> 
+                <input style="font-size:16px; width:120px;" type="text" name="width" id="width" value="914.4"  tabindex="11" />
+                </td>
+                <td align="left">
+                    <label for="widthopt" style="font-size:16px;" class="select"></label> 
+                    <select style="font-size:16px; width:80px;" name="widthopt" id="widthopt" tabindex="12">
+                      <option value="0">0</option>
+                      <option value="125">125</option>
+                      <option value="250">250</option>
+                      <option value="375">375</option>
+                      <option value="500">500</option>
+                      <option value="625">625</option>
+                      <option value="750">750</option>
+                      <option value="875">875</option>
+                    </select> 
+                   </fieldset>
+                </td> 
+           </tr>        
+          <tr> 
+          	<td align="left">     
+            	<label for="height" style="font-size:16px; text-align:right; font-weight:bold;" >Height:</label> 
+            </td>   
+            
+            <td align="right"> 
+            	<input style="font-size:16px; width:120px;" type="text" name="height" id="height" value="2133.6" tabindex="13"  /> 
+             </td>
+             <td align="left">
+                <label for="heightopt" style="font-size:16px;" class="select"></label> 
+                <select style="font-size:16px;" name="heightopt" id="heightopt">
+                  <option value="0">0</option>
+                  <option value="125">125</option>
+                  <option value="250">250</option>
+                  <option value="375">375</option>
+                  <option value="500">500</option>
+                  <option value="625">625</option>
+                  <option value="750">750</option>
+                  <option value="875">875</option>
+                </select> </td> 
+                </tr>
+    <tr> <td colspan="3">   <a href="#" id="genButton" data-role="button" tabindex="14">Generate Door Value </a>      </td></tr>
+        <tr> 	<td colspan="3" align="Center"> 	    <label for="doorcost" style="text-align:right; font-weight:bold;">Cost of The Door:</label> 
+    <span style="font-family:Rupee; font:Rupee; font-size:26px; color:#600; font-weight:bold;"> ` </span> 
+            <span name="doorcost" id="doorcost" style="font-family:Tahoma, Geneva, sans-serif; font-size:26px; color:#600; font-weight:bold;"> 0 </span> </td> </tr>
+    <tr> <td colspan="3"> <a href="#" id="xtbtn" data-icon="back" data-role="button" tabindex="15">Exit</a>	</td> </tr>
+	</table>
+   </div>
+	<div data-role="footer" data-theme="a" data-position="fixed">
+    	<h4> Madhav Consultants & Creators </h4>
+	</div>
+</div>
+
+</center>
+</body>
+</html>

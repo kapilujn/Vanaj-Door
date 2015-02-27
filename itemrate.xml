@@ -1,0 +1,122 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+	<itemrates>
+		<itemcode>1</itemcode>
+		<particular>4mm Plywood</particular>
+		<rate>18.00</rate>
+		<itemnature>PLYTYPE</itemnature>
+		<itemtype>4MMPLAIN</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>2</itemcode>
+		<particular>6mm Plywood</particular>
+		<rate>32.00</rate>
+		<itemnature>PLYTYPE</itemnature>
+		<itemtype>6MMPLAIN</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>3</itemcode>
+		<particular>8mm Plywood</particular>
+		<rate>42.00</rate>
+		<itemnature>PLYTYPE</itemnature>
+		<itemtype>8MMPLAIN</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>4</itemcode>
+		<particular>4mm Teak</particular>
+		<rate>49.00</rate>
+		<itemnature>PLYTYPE</itemnature>
+		<itemtype>4MMTEAK</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>5</itemcode>
+		<particular>6mm Teak</particular>
+		<rate>55.00</rate>
+		<itemnature>PLYTYPE</itemnature>
+		<itemtype>6MMTEAK</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>6</itemcode>
+		<particular>4mm NuWood</particular>
+		<rate>17.00</rate>
+		<itemnature>PLYTYPE</itemnature>
+		<itemtype>4MMNUWOOD</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>7</itemcode>
+		<particular>6mm NuWood</particular>
+		<rate>28.00</rate>
+		<itemnature>PLYTYPE</itemnature>
+		<itemtype>6MMNUWOOD</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>8</itemcode>
+		<particular>NuWood Paint Rate</particular>
+		<rate>30.00</rate>
+		<itemnature>NUWOODPAINT</itemnature>
+		<itemtype>PAINT</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>9</itemcode>
+		<particular>Baton</particular>
+		<rate>13.00</rate>
+		<itemnature>BATON</itemnature>
+		<itemtype>BATON</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>10</itemcode>
+		<particular>Baton Labour</particular>
+		<rate>7.00</rate>
+		<itemnature>BATONLABOUR</itemnature>
+		<itemtype>BATONLABOUR</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>11</itemcode>
+		<particular>White Mica</particular>
+		<rate>25.00</rate>
+		<itemnature>MICAWHITE</itemnature>
+		<itemtype>MICA</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>12</itemcode>
+		<particular>Mica Pasting</particular>
+		<rate>13.00</rate>
+		<itemnature>MICAPASTING</itemnature>
+		<itemtype>PASTING</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>13</itemcode>
+		<particular>LABOUR</particular>
+		<rate>1.00</rate>
+		<itemnature>LABOUR</itemnature>
+		<itemtype>LABOUR</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>14</itemcode>
+		<particular>FILLER COST</particular>
+		<rate>1.45</rate>
+		<itemnature>FILLERCOST</itemnature>
+		<itemtype>FILLERCOST</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>15</itemcode>
+		<particular>FEVICOL COST</particular>
+		<rate>8.00</rate>
+		<itemnature>FEVICOLCOST</itemnature>
+		<itemtype>FEVICOLCOST</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>16</itemcode>
+		<particular>OTHERS</particular>
+		<rate>0.10</rate>
+		<itemnature>OTHERS</itemnature>
+		<itemtype>OTHERS</itemtype>
+	</itemrates>
+	<itemrates>
+		<itemcode>17</itemcode>
+		<particular>DEALERS</particular>
+		<rate>0.23</rate>
+		<itemnature>DEALERS</itemnature>
+		<itemtype>DEALERS</itemtype>
+	</itemrates>
+</VFPData>
